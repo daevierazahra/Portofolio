@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daeviera Fatimahuz Zahra - Portofolio</title>
+
+  <!-- previews -->
+  <meta name="description" content="Portofolio Daeviera Fatimahuz Zahra — Profil, Pendidikan, Pengalaman, Proyek, dan Kontak." />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:,"> 
+  </head>
+
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#experiences" class="nav-link">Projects</a></li>
+            <li><a href="#tools" class="nav-link">Tools</a></li>
+            <li><a href="#organization" class="nav-link">Organizational</a></li>
+            <li><a href="#sertifikat" class="nav-link">Certificate</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+  <!-- Titik 3 -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+
+  <!-- Home -->
+    <section id="home" class="hero">
+      <div class="hero-bubble">
+        <div class="hero-left">
+          <h1>Hi! <span class="accent">I'm Daeviera</span></h1>
+          <p class="lead">
+            An Information Systems undergraduate at Tarumanagara University with strong interest in software development,
+            covering both front-end and back-end workflows. Highly motivated and passionate about data, technology, and continuous self-development,
+            with solid teamwork, critical thinking, and adaptability skills gained through organizational experience. Committed to leveraging data-driven insights and
+            well-designed systems to support strategic decision-making and solve real-world problems.
+          </p>
+          <div class="hero-actions">
+            <a href="#experiences" class="btn">Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="card-profile">
+            <img src="asset/FotoDiri.jpg" alt="Foto Daeviera" class="profile-img" />
+            <div class="card-body">
+              <h3>Daeviera Fatimahuz Zahra</h3>
+              <p class="muted">Data & AI Enthusiast | Web & App Development</p>
+              <p class="small">Connect with me:</p>
+              <div class="contact-buttons">
+                <a href="https://drive.google.com/file/d/1jdyDJnWLrBg51lFq9A9BaRgMTwOr1zoD/view?usp=sharing" target="_blank" class="btn-mini">CV</a>
+                <a href="https://www.linkedin.com/in/deyra-zahra/" target="_blank" class="btn-mini">LinkedIn</a>
+                <a href="https://www.instagram.com/dvzaah_" target="_blank" class="btn-mini">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Education -->
+    <section id="education" class="section section-alt">
+      <div class="container section-inner">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h4>Tarumanagara University</h4>
+            <h4>Bachelor of Information Systems, 3.65/4.00</h4>
+            <time class="time">2023 — now</time>
+            <p>- 1st Honorable Mention in Scientific Article Writing Competition in Humaniora Festival, Tarumanagara University. Title: "Efektivitas Strategi Pemberantasan Narkoba di Indonesia: Antara Regulasi dan Implementasi”.</p>
+            <p>- Participant Big Data Challenge in Satria Data 2025. Competed in a national level big data competition focused on data analysis and problem-solving.</p>
+          </article>
+
+          <article class="timeline-item">
+            <h4>SMK Negeri 10 Kabupaten Tangerang</h4>
+            <time class="time">2019 — 2022</time>
+            <p>- Secretary of the school’s Flag Raising Organization (Paskibra) for two terms, overseeing administrative duties, documentation, and organizational coordination.</p>
+            <p>- President of the English Class Organization, leading team coordination, program planning, and member development activities</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="experiences" class="section">
+      <div class="container section-inner">
+        <h2 class="section-title">Projects</h2>
+        <div class="cards-grid">
+
+          <div class="card" onclick="openDetail('detail1')">
+            <img src="asset/1.png" alt="Jadoo Travel">
+            <h3>Jadoo Travel Website</h3>
+            <p>A full-stack travel website featuring a clean and modern interface. The front end is built with HTML, CSS, JavaScript, and Bootstrap, while the back end is powered by PHP and MySQL.</p>
+          </div>
+
+          <div class="card" onclick="openDetail('detail2')">
+            <img src="asset/2.png" alt="Cafe System">
+            <h3>Cafe Ordering Sistem</h3>
+            <p>A full-stack cafe ordering application that supports online ordering, built with Java (Spring Boot) on the back end and HTML/CSS with MySQL on the front end and database layer.</p>
+          </div>
+
+          <div class="card" onclick="openDetail('detail3')">
+            <img src="asset/3.png" alt="Dashboard">
+            <h3>Regional Tourism Category Dashboard</h3>
+            <p>The PHP backend drives the Admin Dashboard, allowing administrators to manage all content through full CRUD actions. PHP scripts handle updates, store them in MySQL, and apply changes to the site in real time.</p>
+          </div>
+
+          <div class="card" onclick="openDetail('detail4')">
+            <img src="asset/4.png" alt="Data">
+            <h3>Predicting Airline Stock Prices</h3>
+            <p>Conducted data preprocessing, feature selection, and model comparison using Python to evaluate Linear Regression and XGBoost, finding Linear Regression as the most accurate model based on MAE, RMSE, and R².</p>
+          </div>
+
+          <div class="card" onclick="openDetail('detail5')">
+            <img src="asset/5.png" alt="AdaptEd">
+            <h3>AdaptEd - AI Powered Learning & Career Finder Platform</h3>
+            <p>Designed the UI/UX prototype in Figma and prepared complete project documentation covering system design, cost estimation, scheduling, risk management, and technical analysis.</p>
+          </div>
+
+          <div class="card" onclick="openDetail('detail6')">
+            <img src="asset/6.png" alt="InComp">
+            <h3>InComp - Employee Attendance & Canteen Platform</h3>
+            <p>Designed a user-friendly attendance and meal-ordering interface in Figma and developed complete project documentation covering system design, cost estimation, scheduling, risk management, and technical analysis.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Detail Project 1 -->
+    <div id="detail1" class="project-detail">
+      <a class="close-btn" onclick="closeDetail()">×</a>
+      <h1 class="detail-title">Jadoo Travel Website</h1>
+      <p class="detail-desc">A full-stack travel website featuring a clean and modern interface. The front end is built with HTML, CSS, JavaScript, and Bootstrap, while the back end is powered by PHP and MySQL.</p>
+      <!-- BOX 1 (foto kanan) -->
+      <div class="detail-box reverse">
+        <img src="asset/Project1_data.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Database Architecture</h2>
+          <p>The database is built using MySQL and managed through phpMyAdmin. Its structure is optimized to support complete CRUD operations for geographic data, destination content, and user interactions, ensuring efficient data organization and fast access.</p>
+        </div>
+      </div>
+
+      <!-- BOX 2 (foto kiri) -->
+      <div class="detail-box">
+        <img src="asset/Project1_backend.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Backend & Admin Dashboard</h2>
+          <p>The PHP-based backend powers a fully functional Admin Dashboard that acts as the system’s internal CMS. Administrators have full control to create, update, and delete any content. All changes made in the dashboard are instantly reflected on the live website in real time.</p>
+        </div>
+      </div>
+
+      <!-- BOX 3 (foto kanan) -->
+      <div class="detail-box reverse">
+        <img src="asset/Project1_frontend.jpg">
+        <div class="detail-text-wrapper">
+          <h2>User Interface</h2>
+          <p>Developed with HTML5, CSS3, and JavaScript, the user interface highlights key features such as services, destinations, and booking functionality. By leveraging the Bootstrap framework, the layout remains fully responsive and visually consistent across all screen sizes and devices.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Detail Project 2 -->
+    <div id="detail2" class="project-detail">
+      <a class="close-btn" onclick="closeDetail()">×</a>
+      <h1 class="detail-title">Cafe Ordering System</h1>
+      <p class="detail-desc">A full-stack café ordering application that supports online ordering, built with Java (Spring Boot) on the back end and HTML/CSS with MySQL on the front end and database layer.</p>
+      <!-- BOX 1 (foto kanan) -->
+      <div class="detail-box reverse">
+        <img src="asset/Project2_data.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Database Architecture</h2>
+          <p>The system’s database is built using MySQL and consists of core tables such as user, register, menu_item, order_process, payment_method, card_payment, and qris_payment. Each table represents an entity from the UML class diagram and supports complete CRUD operations. With Spring Boot JPA repositories managing all interactions, data remains structured, consistent, and synchronized with the system in real time.</p>
+        </div>
+      </div>
+
+      <!-- BOX 2 (foto kiri) -->
+      <div class="detail-box">
+        <img src="asset/Project2_frontend.jpg">
+        <div class="detail-text-wrapper">
+          <h2>User Interface (Main UI)</h2>
+          <p>Built with HTML, CSS, and JavaScript, the main user interface provides features for customers such as registration, login, menu browsing, ordering, and payment processing. The layout is responsive and designed to deliver a smooth experience across all devices while communicating seamlessly with the Spring Boot backend.</p>
+        </div>
+      </div>
+
+      <!-- BOX 3 (foto kanan) -->
+      <div class="detail-box reverse">
+        <img src="asset/Project2_admin.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Admin Interface (Separate UI)</h2>
+          <p>The system includes a dedicated admin interface that is separate from the main UI. Through this interface, administrators can add, edit, and delete menu items, manage user data, and monitor orders. Built with the same front-end technologies, the admin UI functions as a secure control panel that fully connects to backend services for real-time content management.</p>
+        </div>
+      </div>
+    </div>
+
+        <!-- Detail Project 3 -->
+    <div id="detail3" class="project-detail">
+      <a class="close-btn" onclick="closeDetail()">×</a>
+      <h1 class="detail-title">Regional Tourism Category Dashboard</h1>
+      <p class="detail-desc">The PHP backend powers an internal CMS-style Admin Dashboard, enabling administrators to perform full CRUD operations (add, edit, and delete content). All updates are processed by PHP scripts, stored in MySQL, and reflected on the website in real time.</p>
+      <!-- BOX 1 (foto kanan) -->
+      <div class="detail-box reverse">
+        <img src="asset/Project3_frontend.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Admin Dashboard (Regional Tourism Category Management)</h2>
+          <p>A dedicated Regional Tourism Category Management Dashboard built with PHP, phpMyAdmin, and MySQL. This admin interface allows authorized users to efficiently add, edit, and delete tourism categories and related regional data. All operations are executed through secure CRUD functionalities, ensuring that updates made in the dashboard are immediately stored in the database and reflected across the system in real time.</p>
+        </div>
+      </div>
+
+      <!-- BOX 2 (foto kiri) -->
+      <div class="detail-box">
+        <img src="asset/Project3_backend.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Backend Logic (PHP Processing Code)</h2>
+          <p>The backend is implemented using pure PHP, where each admin action, such as adding a new tourism category is handled through form submission and MySQL queries. When the user submits the form, the script processes the POST data, validates it, and executes an SQL INSERT command to store the new record in the kategori table. Using mysqli_query for database operations and config.php for connection management, the backend ensures smooth CRUD processing and real-time data updates throughout the system.</p>
+        </div>
+      </div>
+    </div>
+
+        <!-- Detail Project 4 -->
+    <div id="detail4" class="project-detail">
+      <a class="close-btn" onclick="closeDetail()">×</a>
+      <h1 class="detail-title">Predicting Airline Stock Prices</h1>
+      <p class="detail-desc">Conducted data preprocessing, feature selection, and model comparison using Python to evaluate Linear Regression and XGBoost, finding Linear Regression as the most accurate model based on MAE, RMSE, and R².</p>
+      <!-- BOX 1 (foto kanan) -->
+      <div class="detail-box reverse">
+        <img src="asset/Project4_1.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Dataset Source & Structure</h2>
+          <p>The dataset, taken from Investing.com, contains daily historical stock prices for GIAA, LUV, and XAL, representing airline market movements in Southeast Asia and North America. The data was preprocessed through date-format conversion, chronological sorting, and the removal of duplicates and missing values to produce clean and reliable time-series inputs for model training.</p>
+        </div>
+      </div>
+
+      <!-- BOX 2 (foto kiri) -->
+      <div class="detail-box">
+        <img src="asset/Project4_2.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Data Processing & Analysis</h2>
+          <p>The dataset was loaded into Python using Pandas for preprocessing, cleaning, and feature preparation. Linear Regression and XGBoost models were implemented using Scikit-Learn and XGBoost libraries, with the data split into training and testing sets to evaluate predictive performance using MAE, RMSE, and R² metrics.</p>
+        </div>
+      </div>
+
+      <!-- BOX 3 (foto kanan) -->
+      <div class="detail-box reverse">
+        <img src="asset/Project4_3.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Results & Analytical Findings</h2>
+          <p>The comparative analysis shows that Linear Regression provides more accurate predictions for stocks with stable historical patterns, such as GIAA and XAL achieving high R² values of 0.9966 and 0.9851 respectively. XGBoost produced lower accuracy on the same datasets, and both models performed poorly on the volatile LUV stock. All findings were compiled and analyzed as part of the research paper on airline stock price prediction.</p>
+        </div>
+      </div>
+    </div>
+
+        <!-- Detail Project 5 -->
+    <div id="detail5" class="project-detail">
+      <a class="close-btn" onclick="closeDetail()">×</a>
+      <h1 class="detail-title">AdaptEd - AI Powered Learning & Career Finder Platform</h1>
+      <p class="detail-desc">Designed the UI/UX prototype in Figma and prepared complete project documentation covering system design, cost estimation, scheduling, risk management, and technical analysis.</p>
+      <!-- BOX 1 (foto kanan) -->
+      <div class="detail-box reverse">
+        <img src="asset/Project5_1.jpg">
+        <div class="detail-text-wrapper">
+          <h2>AdaptEd Overview</h2>
+          <p>AdaptEd is an education platform designed to make learning in Indonesia accessible to everyone, regardless of age, background, or location. Using adaptive technology, it helps students and adults develop both academic knowledge and practical real-world skills.</p>
+        </div>
+      </div>
+
+      <!-- BOX 2 (foto kiri) -->
+      <div class="detail-box">
+        <img src="asset/Project5_2.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Product UI/UX Preview</h2>
+          <p>The UI/UX of AdaptEd is designed to make learning intuitive, accessible, and personalized. A clean and modern interface helps learners navigate materials easily, while adaptive dashboards display tailored progress and recommendations.</p>
+        </div>
+      </div>
+    </div>
+
+        <!-- Detail Project 6 -->
+    <div id="detail6" class="project-detail">
+      <a class="close-btn" onclick="closeDetail()">×</a>
+      <h1 class="detail-title">InComp - Employee Attendance & Canteen Platform</h1>
+      <p class="detail-desc">Designed a user-friendly attendance and meal-ordering interface in Figma and developed complete project documentation covering system design, cost estimation, scheduling, risk management, and technical analysis.</p>
+      <!-- BOX 1 (foto kanan) -->
+      <div class="detail-box reverse">
+        <img src="asset/Project6_1.jpg">
+        <div class="detail-text-wrapper">
+          <h2>InComp Overview</h2>
+          <p>InComp is a mobile application designed to help employees manage daily administrative tasks more efficiently. Combining features from Canteen and Gajihub (payroll & attendance), the app simplifies digital attendance, meal ordering, and internal communication within a company.</p>
+        </div>
+      </div>
+
+      <!-- BOX 2 (foto kiri) -->
+      <div class="detail-box">
+        <img src="asset/Project6_2.jpg">
+        <div class="detail-text-wrapper">
+          <h2>Product UI/UX Preview</h2>
+          <p>The UI/UX of InComp is designed to streamline daily employee activities through a clean, efficient, and user-friendly interface that makes attendance, leave requests, meal ordering, and internal communication easy to access in one integrated platform.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <section id="tools" class="section">
+      <h2 class="section-title">Tools</h2>
+      <div class="tools-wrapper">
+        <!-- Left -->
+        <div class="tools-scroller row-left">
+          <div class="track-inner-wrap tools-track-wrap">
+            <!-- Track A -->
+            <div class="tools-track">
+              <div class="tool-logo"><img src="asset/python.png" alt="python"></div>
+              <div class="tool-logo"><img src="asset/html.png" alt="html"></div>
+              <div class="tool-logo"><img src="asset/css.png" alt="css"></div>
+              <div class="tool-logo"><img src="asset/JS.jpeg" alt="js"></div>
+              <div class="tool-logo"><img src="asset/figma.png" alt="figma"></div>
+              <div class="tool-logo"><img src="asset/mysql.png" alt="mysql"></div>
+            </div>
+            <!-- Track b (copy) -->
+            <div class="tools-track">
+              <div class="tool-logo"><img src="asset/python.png" alt="python"></div>
+              <div class="tool-logo"><img src="asset/html.png" alt="html"></div>
+              <div class="tool-logo"><img src="asset/css.png" alt="css"></div>
+              <div class="tool-logo"><img src="asset/JS.jpeg" alt="js"></div>
+              <div class="tool-logo"><img src="asset/figma.png" alt="figma"></div>
+              <div class="tool-logo"><img src="asset/mysql.png" alt="mysql"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Right -->
+        <div class="tools-scroller row-right">
+          <div class="track-inner-wrap tools-track-wrap">
+            <!-- Track A -->
+            <div class="tools-track">
+              <div class="tool-logo"><img src="asset/oracle.png" alt="oracle"></div>
+              <div class="tool-logo"><img src="asset/Tableau.png" alt="tableau"></div>
+              <div class="tool-logo"><img src="asset/VSCode.jpeg" alt="vscode"></div>
+              <div class="tool-logo"><img src="asset/canva.jpg" alt="canva"></div>
+              <div class="tool-logo"><img src="asset/Mc.jpg" alt="MicrosoftOffice"></div>
+              <div class="tool-logo"><img src="asset/c++.jpeg" alt="cpp"></div>
+            </div>
+            <!-- TRACK B (copy) -->
+            <div class="tools-track">
+              <div class="tool-logo"><img src="asset/oracle.png" alt="oracle"></div>
+              <div class="tool-logo"><img src="asset/Tableau.png" alt="tableau"></div>
+              <div class="tool-logo"><img src="asset/VSCode.jpeg" alt="vscode"></div>
+              <div class="tool-logo"><img src="asset/canva.jpg" alt="canva"></div>
+              <div class="tool-logo"><img src="asset/Mc.jpg" alt="MicrosoftOffice"></div>
+              <div class="tool-logo"><img src="asset/c++.jpeg" alt="cpp"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organization -->
+    <section id="organization" class="section section-alt">
+      <div class="container section-inner">
+        <h2 class="section-title">Organizational Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h4>AIESEC in Trisakti</h4>
+            <h4>Delegate, AIESEC Future Leader</h4>
+            <time class="time">May 2024 - Jul 2024</time>
+            <p>- Participated in leadership and business-oriented training sessions with delegates from diverse backgrounds.</p>
+            <p>- Engaged in workshops and simulations to strengthen teamwork, critical thinking, and professional communication skills.</p>
+          </article>
+
+          <article class="timeline-item">
+            <h4>Student Executive Board (BEM) of Tarumanagara University</h4>
+            <h4>Staff Ministry of Foreign Affairs</h4>
+            <time class="time">Aug 2024 - Jul 2025</time>
+            <p>- Organized 3 inter-campus benchmarking sessions as PIC.</p>
+            <p>- Built and maintained partnerships with external universities.</p>
+            <p>- Served as MC for 2 campus visitation events and managed communication flows.</p>
+          </article>
+
+          <article class="timeline-item">
+            <h4>Student Activity Unit Open House (UKM OH)</h4>
+            <h4>Member, Security Division</h4>
+            <time class="time">Sep 2024</time>
+            <p>- Supported event operations by designing and executing the security plan.</p>
+            <p>- Ensured safety and smooth coordination during the event.</p>
+          </article>
+
+          <article class="timeline-item">
+            <h4>Social Service Program in Bantargadung Sukabumi</h4>
+            <h4>Deputy Coordinator, Cosumption Division</h4>
+            <time class="time">Nov 2024</time>
+            <p>- Planned division activities, structured work schedules, and delegated tasks.</p>
+            <p>- Managed data documentation and coordinated team responsibilities.</p>
+            <p>- Oversaw food logistics and meal distribution for a 3-day program with 500+ participants.</p>
+          </article>
+
+          <article class="timeline-item">
+            <h4>Tarumanagara Sports and Art Competition (TSAC)</h4>
+            <h4>Member, Event Division</h4>
+            <time class="time">Feb 2025 - Mar 2025</time>
+            <p>- Developed division work plans and coordinated team responsibilities.</p>
+            <p>- Managed budgeting and funding documentation for the division.</p>
+            <p>- Designed and executed creative decorations to enhance the event’s atmosphere.</p>
+          </article>
+
+          <article class="timeline-item">
+            <h4>Tarumanagara Job Fair (TFAIR)</h4>
+            <h4>Deputy Coordinator, Art & Creative Division</h4>
+            <time class="time">May 2025</time>
+            <p>- Developed division work plans and coordinated team responsibilities.</p>
+            <p>- Managed budgeting and funding documentation for the division.</p>
+            <p>- Designed and executed creative decorations to enhance the event’s atmosphere.</p>
+          </article>
+
+          <article class="timeline-item">
+            <h4>Critical Reading Class Seminar</h4>
+            <h4>Deputy Coordinator, Public Relations Division</h4>
+            <time class="time">Jun 2025</time>
+            <p>- Managed online registration and organized participant data using Excel for a seminar attended by over 300 people.</p>
+            <p>- Oversaw participant communication and on-site registration, ensuring smooth event execution and engagement.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificate -->
+    <section id="sertifikat" class="section">
+      <div class="container section-inner">
+        <h2 class="section-title">Certificate</h2>
+
+        <div class="cert-slider">
+          <div class="cert-track">
+
+            <div class="cert">
+              <h3>Intermediate Deep Learning Training</h3>
+              <p>Ministry of Communication and Digital Affairs of the Republic of Indonesia (KOMDIGI) – 2025</p>
+              <a href="https://drive.google.com/file/d/1keboz7I7srx7D3sVaiCusxeWfoDiRs2L/view" class="cert-btn">Show Credential</a>
+            </div>
+
+            <div class="cert">
+              <h3>Mastery Deep Learning Training</h3>
+              <p>Ministry of Communication and Digital Affairs of the Republic of Indonesia (KOMDIGI) – 2025</p>
+              <a href="https://drive.google.com/file/d/1BZMaq-3G2cXJdbFeAfkA0Cojf7XuyV-9/view" class="cert-btn">Show Credential</a>
+            </div>
+
+            <div class="cert">
+              <h3>Basic Principles of AI Implementation</h3>
+              <p>Digital Talent Scolarship – 2025</p>
+              <a href="https://drive.google.com/file/d/1U-m1FyHBcXd0wAjfvYpW2auH-dvVUPIp/view" class="cert-btn">Show Credential</a>
+            </div>
+
+            <div class="cert">
+              <h3>Deep Learning Fundamentals Training</h3>
+              <p>Ministry of Communication and Digital Affairs of the Republic of Indonesia (KOMDIGI) – 2025</p>
+              <a href="https://drive.google.com/file/d/1X_WBbWQpIljLn9RWzejowqFdRbw5X3xz/view" class="cert-btn">Show Credential</a>
+            </div>
+
+            <div class="cert">
+              <h3>Machine Learning with Python for Beginner</h3>
+              <p>DQLab - 2025</p>
+              <a href="https://academy.dqlab.id/Certificate_check/result/DQLABDVIZ2ERDIOE/NONTRACK#mycertificate" class="cert-btn">Show Credential</a>
+            </div>
+
+            <div class="cert">
+              <h3>Python Fundamental for Data Science</h3>
+              <p>DQLab - 2025</p>
+              <a href="https://academy.dqlab.id/Certificate_check/result/DQLABINTP1FBJWRJ/NONTRACK#mycertificate" class="cert-btn">Show Credential</a>
+            </div>
+
+            <div class="cert">
+              <h3>Mini Bootcamp: Introduction to Data Analytics Batch 7</h3>
+              <p>DQLab - 2025</p>
+              <a href="https://academy.dqlab.id/Certificate_check/result/DQLABMBINTLC67JMNJII/TRACK#mycertificate" class="cert-btn">Show Credential</a>
+            </div>
+          </div>
+        </div>
+
+      <!-- Auto Scroll -->
+      <div class="cert-photo-wrapper">
+        <div class="cert-photo-scroller">
+          <div class="cert-photo-track">
+            <div class="cert-photo-item"><img src="asset/11.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/12.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/13.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/14.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/15.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/16.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/17.jpg"></div>
+            <!-- Duplicate for infinite loop -->
+            <div class="cert-photo-item"><img src="asset/11.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/12.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/13.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/14.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/15.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/16.jpg"></div>
+            <div class="cert-photo-item"><img src="asset/17.jpg"></div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- Contact-->
+    <section id="contact" class="contact-section">
+      <div class="contact-wrapper">
+        <!-- Left -->
+        <div class="contact-left glass-box fade-in-left">
+          <h2>My Contact</h2>
+          <p>Whether it’s a project idea or just a quick hello, I’m always open to your message.</p>
+
+          <a class="contact-item" 
+            href="https://mail.google.com/mail/u/0/?fs=1&to=daevierazahra12@gmail.com&su=Judul+Email&body=Isi+pesan+di+sini&tf=cm"
+            target="_blank">
+            <img src="asset/iconGmail.jpg" class="icon-img" alt="Gmail">
+            Gmail
+          </a>
+
+          <a class="contact-item"
+            href="https://api.whatsapp.com/send/?phone=6285736840296&text&type=phone_number&app_absent=0"
+            target="_blank">
+            <img src="asset/iconWA.jpg" class="icon-img" alt="whatsapp">
+            WhatsApp
+          </a>
+
+          <a class="contact-item"
+            href="https://www.linkedin.com/in/deyra-zahra/"
+            target="_blank">
+            <img src="asset/iconLin.jpg" class="icon-img" alt="LinkedIn">
+            LinkedIn
+          </a>
+
+          <a class="contact-item"
+            href="https://www.instagram.com/dvzaah_"
+            target="_blank">
+            <img src="asset/IconInst.jpg" class="icon-img" alt="Instagram">
+            Instagram
+          </a>
+
+          <a class="contact-item"
+            href="https://www.bing.com/search?q=Jakarta,%20Indonesia"
+            target="_blank">
+            <img src="asset/location.jpg" class="icon-img" alt="Location">
+            Jakarta, Indonesia
+          </a>
+        </div>
+
+        <!-- Right -->
+        <div class="contact-right glass-box fade-in-right">
+          <h2>Send me a message</h2>
+
+          <form action="https://formsubmit.co/daevierazahra12@gmail.com" method="POST">
+
+            <!-- Redirect setelah sukses -->
+            <input type="hidden" name="_next" value="https://daeviera.github.io/thanks.html">
+
+            <div class="form-group">
+              <input type="text" name="name" placeholder=" " required />
+              <label>Your Name</label>
+            </div>
+
+            <div class="form-group">
+              <input type="email" name="email" placeholder=" " required>
+              <label>Your Email</label>
+            </div>
+
+            <div class="form-group">
+              <input type="text" name="subject" placeholder=" " required />
+              <label>Subject</label>
+            </div>
+
+            <div class="form-group">
+              <textarea name="message" placeholder=" " required></textarea>
+              <label>Your Message</label>
+            </div>
+
+            <button type="submit" class="btn-send">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Success -->
+        <div id="successPopup" class="success-popup">
+          <div class="popup-box">
+            <h3>Message Sent Successfully</h3>
+            <p>Thank you! Your message has been delivered.</p>
+            <button id="closePopup">Close</button>
+          </div>
+        </div>
+
+
+        </div>
+      </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p></span> Daeviera Fatimahuz Zahra - Data & AI Enthusiast | Web & App Development</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
